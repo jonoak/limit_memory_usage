@@ -7,9 +7,9 @@ pip install git+https://github.com/jonoak/limit_memory_usage.git
 <b><u>Use as decorator:</u></b>
 <br/><br/>
 <code>
-import limit_memory_usage as lmu <br/>
+import limit_memory_usage as lmu 
 
-@lmu.memory(percentage=0.8) <br/>
-def main():<br/>
+@lmu.memory(percentage=0.8) \n
+def main():
 &nbsp;&nbsp;print("using only 80% of memory")
 </code>
